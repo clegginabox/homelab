@@ -8,5 +8,6 @@ data:
     address-pools:
     - name: default
       protocol: layer2
+      autoassign: true
       addresses:
       - 192.168.2.100-192.168.2.200
