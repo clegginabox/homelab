@@ -1,0 +1,4 @@
+infra/talos/secrets
+infra/talos/clusterconfig
+.idea/
+.DS_Store
