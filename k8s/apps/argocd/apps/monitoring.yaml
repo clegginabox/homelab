@@ -8,9 +8,9 @@ spec:
     namespace: monitoring
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/prometheus-community/helm-charts
-    targetRevision: kube-prometheus-stack-58.1.0
+    repoURL: https://github.com/prometheus-community/helm-charts/
     chart: kube-prometheus-stack
+    targetRevision: 58.1.0
     helm:
       values: |
         grafana:
