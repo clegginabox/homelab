@@ -18,3 +18,6 @@ spec:
           image: lscr.io/linuxserver/speedtest-tracker:latest
           ports:
             - containerPort: 8080
+          envFrom:
+            - secretRef:
+                name: speedtest-tracker-secret
